@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #222222;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.SummersGone {
+    width: 800px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    height: 145px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+.IconBox {
+    height: 110px;
+    width: 15%;
+    padding: 1vw;
+    position: relative;
+}
+.TextBox {
+    height: 130px;
+    width: 70%;
+    padding: 10px;
+    position: relative;
+}
+.PlayBox {
+    height: 70px;
+    width: 15%;
+    padding: 10px;
+    position: relative;
+}
+.Play {
+    height: 100%;
+    float: right;
+    padding-right: 20px;
+}
+.Icon {
+    height: 100%;
+    float: left;
+}
+
+#text{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Luca {
+    width: 600px;
+}
+
+@media screen and (max-width: 1000px){
+
+    .cover {
+        margin-top: 8vw;
+    }
+
+    .SummersGone {
+        width: 80vw;
+    }
+
+    .container {
+        width: 80vw;
+        height: 14vw;
+        margin-top: 6%;
+    }
+
+    .IconBox {
+        height: 11vw;
+    }
+
+    .TextBox {
+        height: 13vw;
+        padding: 1vw;
+    }
+
+
+    .PlayBox {
+        height: 7vw;
+        padding: 1vw;
+    }
+
+    #text{
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    .bottom {
+        margin-top: 10vw;
+    }
+
+    .Luca {
+        width: 60vw;
+    }
+
+
+    
+
+}
+
+
+
